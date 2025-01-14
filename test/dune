@@ -1,0 +1,9 @@
+(library
+ (name mock_sampler)
+ (modules mock_sampler)
+ (libraries char_prefix_sampling))
+
+(test
+ (name test_char_prefix_sampling)
+ (modules test_char_prefix_sampling)
+ (libraries char_prefix_sampling mock_sampler alcotest)) 
