@@ -1,0 +1,44 @@
+# ocaml build artifacts
+_build/
+*.install
+*.exe
+*.native
+*.byte
+*.cmi
+*.cmo
+*.cmx
+*.cma
+*.cmxa
+*.cmxs
+*.o
+*.a
+*.so
+*.annot
+*.cmt
+*.cmti
+
+# dune build files
+.merlin
+*.install
+.DS_Store
+
+# opam local switch
+_opam/
+
+# editor files
+*~
+\#*\#
+.\#*
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# os files
+.DS_Store
+Thumbs.db
+
+# local environment
+.env
+.envrc
+.direnv/ 
